@@ -1,0 +1,16 @@
+{
+    "agents": [
+        "claude_code"
+    ],
+    "cloud": false,
+    "packages": [
+        "spatie/laravel-pdf"
+    ],
+    "skills": [
+        "infer-conventions",
+        "laravel-best-practices",
+        "testing-best-practices",
+        "tailwindcss-development",
+        "laravel-pdf"
+    ]
+}
