@@ -28,7 +28,7 @@
 
 14. The Browsershot driver requires the spatie/browsershot package:
 
-              _composer require spatie/browsershot_
+              _ composer require spatie/browsershot _
 
 15. ![img](лара/10.png)
 
