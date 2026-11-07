@@ -59,15 +59,11 @@
     $family = 'Калмыкова Евгения Брониславовна';
     $short = 'МАОУ '.'«'.'СОШ № 10'.'»';
     $rate = 'II';
-    if ($a == 'a') {
-        $imgsrc = "img/diplom.jpg";
-    } else {
-        $imgsrc = public_path('img/diplom.jpg');
-    }
+    //$src = asset("img/diplom.jpg");
 
     ?>
     <div class="x-dip-main">
-        <img class = 'x-dip-img' alt="1" src="{{ $imgsrc }}" />
+        <img class = 'x-dip-img' alt="1" src="{{ public_path('/img/diplom.jpg') }}" />
         <h1 class="x-dip-h1">{{ $rate }} степени</h1>
         <p class="x-dip-p">2-ой Региональной межпредметной Олимпиады для
             обучающихся 9-ых классов образовательных организаций общего образования

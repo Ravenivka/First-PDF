@@ -65,6 +65,7 @@
 P.S. Перед _ПЕРВЫМ_ запуском проекта не забудьте
 
 npm install puppeteer
+npx puppeteer browsers install chrome-headless-shell
 
 
 

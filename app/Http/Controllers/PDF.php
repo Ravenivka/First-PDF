@@ -16,11 +16,12 @@ class PDF extends Controller
             ->name('index.pdf');
     }
     public function preview(){
-        return view('diplom',['a'=>'a']);
+        return view('diplom');
     }
     public function convert(){
+        //$src=(realpath('img/diplom.jpg'));
         return pdf()
-            ->view('diplom', ['a'=>'b'])
+            ->view('diplom')
             ->orientation(orientation::Portrait)
             ->format(Format::A4)
             ->name('index.pdf');
